@@ -1,6 +1,7 @@
 # Leaderboard — mobile mini-game "Гоночки"
 
 ## Overview
+
 A web application for displaying the leaderboard of players in the mobile mini-game "Гоночки".  
 User data is generated locally, with support for lazy-load and infinite scroll.
 
@@ -9,8 +10,6 @@ Key features:
 - Infinite scroll: load 50 users at a time when scrolling
 - Virtualized list for smooth performance with 1000+ users
 - Row highlighting on click
-
----
 
 ## Technologies
 
@@ -21,11 +20,9 @@ Key features:
 - FSD (Feature-Sliced Design)  
 - Virtualized List (`react-window`)  
 
----
-
 ## Project Structure (FSD)
-
-`src
+```
+src
 ├ app
 │   └ App.tsx
 ├ pages
@@ -37,7 +34,8 @@ Key features:
 ├ shared
 │   └ config
 │   └ enums
-`
+```
+
 ## Getting started
 `npm install` to install all the dependencies defined in a package.json file.
 
