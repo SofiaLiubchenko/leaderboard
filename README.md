@@ -25,7 +25,7 @@ Key features:
 
 ## Project Structure (FSD)
 
-src
+`src
 ├ app
 │   └ App.tsx
 ├ pages
@@ -37,12 +37,11 @@ src
 ├ shared
 │   └ config
 │   └ enums
-
+`
 ## Getting started
 `npm install` to install all the dependencies defined in a package.json file.
 
 `npm run dev` to start Vite dev server.
 
 ## Details
-You can manually set constants for users loading time (LOADING_TIME), number of generated users (MAX_USERS_NUMBER) and lazy-load users number (LIMIT) in the `src/shared/config/constants.ts`.
-User generation occurs in a file `src/entities/user/model/generateUsers.ts`.
+You can manually set constants for users loading time (LOADING_TIME), number of generated users (MAX_USERS_NUMBER) and lazy-load users number (LIMIT) in the `src/shared/config/constants.ts`. User generation occurs in a file `src/entities/user/model/generateUsers.ts`.
